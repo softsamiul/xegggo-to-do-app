@@ -40,8 +40,9 @@ const useFirebase = () => {
         })
           .then(() => {})
           .catch((error) => {});
-        const destination = location?.state?.from || "/home";
-        nevigate(destination);
+        //   const destination = location?.state?.from || "/home";
+          nevigate('/');
+        
         setAuthError("");
       })
       .catch((error) => {
@@ -91,7 +92,6 @@ const useFirebase = () => {
   return {
     signInUsingGoogle,
     user,
-    admin,
     registerUser,
     logOut,
     loginUser,

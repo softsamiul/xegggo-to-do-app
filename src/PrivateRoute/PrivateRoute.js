@@ -9,7 +9,7 @@ const PrivateRoute = ({ children, ...rest }) => {
     let location = useLocation();
     if (loading) { 
         return  <div>
-        <img className="mx-auto" src={spinner} alt="spinner" />
+        <img style={{width:'60px', height:'60px', paddingTop:'150px'}} className="mx-auto" src={spinner} alt="spinner" />
     </div> }
 
     if (user.email) {

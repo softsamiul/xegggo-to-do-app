@@ -1,0 +1,44 @@
+@import '../../colors.scss';
+
+.field-wrapper-outer{
+    width: 80%;
+    margin: 0 auto;
+    .field-wrapper-inner{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        background-color: $color-white;
+        align-items: center;
+        .fas{
+            display: inline-block;
+            color: $secondary-color;
+            width: 50px;
+            text-align: center;
+        }
+        .inp{
+            width: 90%;
+            padding: 12px 0;
+            display: inline-block;
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+}
+
+.divider{
+    height: 1px;
+    background-color: $color-white;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.naviagte-user{
+    span{
+        color: $color-white;
+        text-decoration: underline;
+    }
+}
+
+.margin-b{
+    margin-bottom: 10px;
+}

@@ -1,5 +1,8 @@
+@import 'colors.scss';
 .App {
   text-align: center;
+  background-color: $secondary-color;
+  color: $color-white;
 }
 
 .App-logo {
